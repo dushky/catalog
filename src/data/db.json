@@ -6,7 +6,8 @@
       "description": "Description about Apple Scent",
       "price": 20,
       "in_stock": 200,
-      "category_id": 1
+      "category_id": 1,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "description": "Description about Orange Zest",
       "price": 18,
       "in_stock": 150,
-      "category_id": 1
+      "category_id": 1,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 3,
@@ -22,7 +24,8 @@
       "description": "Description about Lavender Fields",
       "price": 25,
       "in_stock": 100,
-      "category_id": 2
+      "category_id": 2,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 4,
@@ -30,7 +33,8 @@
       "description": "Description about Ocean Breeze",
       "price": 22,
       "in_stock": 180,
-      "category_id": 2
+      "category_id": 2,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 5,
@@ -38,7 +42,8 @@
       "description": "Description about Citrus Splash",
       "price": 15,
       "in_stock": 120,
-      "category_id": 3
+      "category_id": 3,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 6,
@@ -46,7 +51,8 @@
       "description": "Description about Vanilla Dream",
       "price": 30,
       "in_stock": 90,
-      "category_id": 3
+      "category_id": 3,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 7,
@@ -54,7 +60,8 @@
       "description": "Description about Minty Fresh",
       "price": 18,
       "in_stock": 100,
-      "category_id": 4
+      "category_id": 4,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 8,
@@ -62,7 +69,8 @@
       "description": "Description about Spicy Cinnamon",
       "price": 20,
       "in_stock": 80,
-      "category_id": 4
+      "category_id": 4,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 9,
@@ -70,7 +78,8 @@
       "description": "Description about Fresh Linen",
       "price": 12,
       "in_stock": 250,
-      "category_id": 5
+      "category_id": 5,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 10,
@@ -78,7 +87,8 @@
       "description": "Description about Gentle Rain",
       "price": 15,
       "in_stock": 200,
-      "category_id": 5
+      "category_id": 5,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 11,
@@ -86,7 +96,8 @@
       "description": "Description about Cherry Blossom",
       "price": 22,
       "in_stock": 120,
-      "category_id": 2
+      "category_id": 2,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 12,
@@ -94,7 +105,8 @@
       "description": "Description about Lemon Zing",
       "price": 16,
       "in_stock": 180,
-      "category_id": 3
+      "category_id": 3,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 13,
@@ -102,7 +114,8 @@
       "description": "Description about Crisp Pine",
       "price": 28,
       "in_stock": 80,
-      "category_id": 4
+      "category_id": 4,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 14,
@@ -110,7 +123,8 @@
       "description": "Description about Warm Vanilla",
       "price": 32,
       "in_stock": 90,
-      "category_id": 4
+      "category_id": 4,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 15,
@@ -118,7 +132,8 @@
       "description": "Description about Ocean Mist",
       "price": 24,
       "in_stock": 150,
-      "category_id": 5
+      "category_id": 5,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 16,
@@ -126,7 +141,8 @@
       "description": "Description about Berry Delight",
       "price": 19,
       "in_stock": 100,
-      "category_id": 1
+      "category_id": 1,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 17,
@@ -134,7 +150,8 @@
       "description": "Description about Jasmine Breeze",
       "price": 27,
       "in_stock": 70,
-      "category_id": 2
+      "category_id": 2,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 18,
@@ -142,7 +159,8 @@
       "description": "Description about Fresh Citrus",
       "price": 17,
       "in_stock": 130,
-      "category_id": 3
+      "category_id": 3,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 19,
@@ -150,7 +168,8 @@
       "description": "Description about Eucalyptus Mist",
       "price": 21,
       "in_stock": 110,
-      "category_id": 3
+      "category_id": 3,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 20,
@@ -158,7 +177,8 @@
       "description": "Description about Mountain Pine",
       "price": 26,
       "in_stock": 95,
-      "category_id": 4
+      "category_id": 4,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 21,
@@ -166,7 +186,8 @@
       "description": "Description about Coconut Bliss",
       "price": 23,
       "in_stock": 140,
-      "category_id": 1
+      "category_id": 1,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 22,
@@ -174,7 +195,8 @@
       "description": "Description about Summer Rose",
       "price": 29,
       "in_stock": 60,
-      "category_id": 2
+      "category_id": 2,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 23,
@@ -182,7 +204,8 @@
       "description": "Description about Cucumber Melon",
       "price": 14,
       "in_stock": 170,
-      "category_id": 3
+      "category_id": 3,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 24,
@@ -190,7 +213,8 @@
       "description": "Description about Sandalwood Serenity",
       "price": 33,
       "in_stock": 75,
-      "category_id": 4
+      "category_id": 4,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 25,
@@ -198,7 +222,8 @@
       "description": "Description about Lilac Love",
       "price": 20,
       "in_stock": 125,
-      "category_id": 5
+      "category_id": 5,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 26,
@@ -206,7 +231,8 @@
       "description": "Description about Mango Tango",
       "price": 19,
       "in_stock": 110,
-      "category_id": 1
+      "category_id": 1,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 27,
@@ -214,7 +240,8 @@
       "description": "Description about Green Tea Zen",
       "price": 16,
       "in_stock": 160,
-      "category_id": 2
+      "category_id": 2,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 28,
@@ -222,7 +249,8 @@
       "description": "Description about Fresh Lavender",
       "price": 24,
       "in_stock": 90,
-      "category_id": 3
+      "category_id": 3,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 29,
@@ -230,7 +258,8 @@
       "description": "Description about Cedarwood Forest",
       "price": 31,
       "in_stock": 70,
-      "category_id": 4
+      "category_id": 4,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 30,
@@ -238,7 +267,8 @@
       "description": "Description about Vanilla Bean",
       "price": 28,
       "in_stock": 85,
-      "category_id": 5
+      "category_id": 5,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 31,
@@ -246,7 +276,8 @@
       "description": "Description about Tropical Paradise",
       "price": 25,
       "in_stock": 135,
-      "category_id": 1
+      "category_id": 1,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 32,
@@ -254,7 +285,8 @@
       "description": "Description about Raspberry Delight",
       "price": 18,
       "in_stock": 120,
-      "category_id": 1
+      "category_id": 1,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 33,
@@ -262,7 +294,8 @@
       "description": "Description about Peachy Keen",
       "price": 22,
       "in_stock": 100,
-      "category_id": 1
+      "category_id": 1,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 34,
@@ -270,7 +303,8 @@
       "description": "Description about Amber Woods",
       "price": 32,
       "in_stock": 85,
-      "category_id": 1
+      "category_id": 1,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 35,
@@ -278,7 +312,8 @@
       "description": "Description about Rainforest Mist",
       "price": 26,
       "in_stock": 75,
-      "category_id": 1
+      "category_id": 1,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 36,
@@ -286,7 +321,8 @@
       "description": "Description about Tropical Coconut",
       "price": 23,
       "in_stock": 140,
-      "category_id": 2
+      "category_id": 2,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 37,
@@ -294,7 +330,8 @@
       "description": "Description about Summer Breeze",
       "price": 19,
       "in_stock": 110,
-      "category_id": 2
+      "category_id": 2,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 38,
@@ -302,7 +339,8 @@
       "description": "Description about Lemongrass Love",
       "price": 16,
       "in_stock": 160,
-      "category_id": 2
+      "category_id": 2,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 39,
@@ -310,7 +348,8 @@
       "description": "Description about Sandalwood Serenade",
       "price": 31,
       "in_stock": 70,
-      "category_id": 2
+      "category_id": 2,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 40,
@@ -318,7 +357,8 @@
       "description": "Description about Vanilla Elegance",
       "price": 28,
       "in_stock": 85,
-      "category_id": 2
+      "category_id": 2,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 41,
@@ -326,7 +366,8 @@
       "description": "Description about Exotic Mango",
       "price": 25,
       "in_stock": 135,
-      "category_id": 3
+      "category_id": 3,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 42,
@@ -334,7 +375,8 @@
       "description": "Description about Citrus Burst",
       "price": 18,
       "in_stock": 120,
-      "category_id": 3
+      "category_id": 3,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 43,
@@ -342,7 +384,8 @@
       "description": "Description about Sweet Peach",
       "price": 22,
       "in_stock": 100,
-      "category_id": 3
+      "category_id": 3,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 44,
@@ -350,7 +393,8 @@
       "description": "Description about Cedarwood Retreat",
       "price": 32,
       "in_stock": 85,
-      "category_id": 4
+      "category_id": 4,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 45,
@@ -358,7 +402,8 @@
       "description": "Description about Misty Mountains",
       "price": 26,
       "in_stock": 75,
-      "category_id": 4
+      "category_id": 4,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 46,
@@ -366,7 +411,8 @@
       "description": "Description about Tropical Pineapple",
       "price": 23,
       "in_stock": 130,
-      "category_id": 4
+      "category_id": 4,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 47,
@@ -374,7 +420,8 @@
       "description": "Description about Morning Dew",
       "price": 19,
       "in_stock": 110,
-      "category_id": 4
+      "category_id": 4,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 48,
@@ -382,7 +429,8 @@
       "description": "Description about Lavender Bliss",
       "price": 16,
       "in_stock": 160,
-      "category_id": 5
+      "category_id": 5,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 49,
@@ -390,7 +438,8 @@
       "description": "Description about Cedarwood Serenade",
       "price": 31,
       "in_stock": 70,
-      "category_id": 5
+      "category_id": 5,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     },
     {
       "id": 50,
@@ -398,7 +447,8 @@
       "description": "Description about Warm Cinnamon",
       "price": 28,
       "in_stock": 85,
-      "category_id": 5
+      "category_id": 5,
+      "image_url": "https://static.vecteezy.com/system/resources/thumbnails/022/825/544/small/orange-fruit-orange-on-transparent-background-free-png.png"
     }
   ],
 

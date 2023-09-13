@@ -1,13 +1,20 @@
-import { json, useRouteLoaderData } from "react-router-dom";
+import { useRouteLoaderData } from "react-router-dom";
 import axios from "axios";
+import ProductList from "../components/Product/ProductList";
+import { useEffect } from "react";
 
 const Catalog = () => {
   const data = useRouteLoaderData("catalog");
-  console.log(data.products);
-  return <div>{data.products[0].name}</div>;
+
+
+  return (
+    <>
+      <ProductList/>
+    </>
+  );
 };
 
-export async function loader({ request, params }) {
+export async function loader() {
   try {
     const productsResponse = await axios.get("http://localhost:8000/products/");
     const categoriesResponse = await axios.get(
