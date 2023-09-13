@@ -1,11 +1,23 @@
-import { useParams } from 'react-router-dom';
+import { useRouteLoaderData } from "react-router-dom";
+import axios from "axios";
 
 const ProductDetail = () => {
-  let {id} = useParams();
+  const data = useRouteLoaderData("product-detail");
+  return <div>{data.name}</div>;
+};
 
-  return (
-    <div>ProductDetail with ID {id}</div>
-  )
+export async function loader({ request, params }) {
+  const id = params.productId;
+
+  try {
+    const response = await axios.get("http://localhost:8000/products/" + id);
+    if (response.status === 200) {
+      return response;
+    }
+  } catch (error) {
+    console.error(error);
+    throw error;
+  }
 }
 
-export default ProductDetail
+export default ProductDetail;
