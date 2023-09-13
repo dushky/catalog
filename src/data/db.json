@@ -428,5 +428,63 @@
       "name": "Nature",
       "description": "Scents inspired by the beauty of the natural world"
     }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "user": "User123",
+      "rating": 5,
+      "comment": "I love the Apple Scent! It's so refreshing.",
+      "date": "2023-09-15"
+    },
+    {
+      "id": 2,
+      "product_id": 1,
+      "user": "FragranceFanatic",
+      "rating": 4,
+      "comment": "Nice scent, but a bit too strong for my taste.",
+      "date": "2023-09-14"
+    },
+    {
+      "id": 3,
+      "product_id": 1,
+      "user": "ScentLover88",
+      "rating": 5,
+      "comment": "Apple Scent is the best! It reminds me of my childhood.",
+      "date": "2023-09-13"
+    },
+    {
+      "id": 4,
+      "product_id": 2,
+      "user": "CitrusLover",
+      "rating": 5,
+      "comment": "The Orange Zest fragrance is amazing!",
+      "date": "2023-09-13"
+    },
+    {
+      "id": 5,
+      "product_id": 2,
+      "user": "ZestyReviewer",
+      "rating": 4,
+      "comment": "Orange Zest is great, but it could be a bit sweeter.",
+      "date": "2023-09-12"
+    },
+    {
+      "id": 6,
+      "product_id": 3,
+      "user": "LavenderLover",
+      "rating": 5,
+      "comment": "Lavender Fields is so calming. I love it!",
+      "date": "2023-09-12"
+    },
+    {
+      "id": 7,
+      "product_id": 3,
+      "user": "NatureEnthusiast",
+      "rating": 4,
+      "comment": "A lovely floral scent, but I prefer something more exotic.",
+      "date": "2023-09-11"
+    }
   ]
 }
