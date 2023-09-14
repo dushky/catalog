@@ -3,8 +3,12 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: 5px;
-  gap: 10px;
+  gap: 35px;
+}
+
+.product-list::after {
+  content: "";
+  flex: auto;
 }
 
 .product-list a {
@@ -18,5 +22,9 @@
   }
   .product-list a {
     width: 75%;
+  }
+
+  .product-list::after {
+    flex: 20%;
   }
 }
