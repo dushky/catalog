@@ -1,22 +1,22 @@
 .product-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    padding-top: 5px;
-    gap: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 5px;
+  gap: 10px;
 }
 
 .product-list a {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.87);
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.87);
 }
 
 @media screen and (max-width: 600px) {
-    .product-list {
-        justify-content: center;
-    }
-    .product-list a {
-        width: 75%;
-    }
+  .product-list {
+    justify-content: center;
   }
+  .product-list a {
+    width: 75%;
+  }
+}

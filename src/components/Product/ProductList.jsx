@@ -8,7 +8,9 @@ const ProductList = () => {
   useEffect(() => {
     const source = axios.CancelToken.source();
     axios
-      .get("http://localhost:8000/products/?_start=0&_end=19", { cancelToken: source.token })
+      .get("http://localhost:8000/products/?_start=0&_end=19", {
+        cancelToken: source.token,
+      })
       .then((response) => {
         setProducts(response.data);
       })
