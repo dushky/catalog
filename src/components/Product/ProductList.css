@@ -3,10 +3,10 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 35px;
+  gap: 20px;
 }
 
-.product-list::after {
+.product-list::after{
   content: "";
   flex: auto;
 }
@@ -24,7 +24,8 @@
     width: 75%;
   }
 
-  .product-list::after {
-    flex: 20%;
+  .product-list::after{
+    content: "";
+    flex:20%;
   }
 }

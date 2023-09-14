@@ -40,6 +40,11 @@ const ProductList = () => {
         products.map((product) => {
           return <ProductBox key={product.id} product={product} />;
         })}
+
+      {/*Thisfixes layout of last row of products*/}
+      <div className="product-box" style={{ visibility: "hidden" }}></div>
+      <div className="product-box" style={{ visibility: "hidden" }}></div>
+      <div className="product-box" style={{ visibility: "hidden" }}></div>
     </div>
   );
 };

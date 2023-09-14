@@ -12,10 +12,11 @@ import FilterContext from "../../store/filter-context";
 const useStyles = makeStyles(() => ({
   drawer: {
     width: 240,
-    zIndex: 0,
+    zIndex: 6,
   },
   drawerPaper: {
     width: 240,
+    zIndex: 6,
   },
   drawerButton: {
     display: "flex",
