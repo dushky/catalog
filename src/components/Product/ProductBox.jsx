@@ -1,13 +1,16 @@
 import PropTypes from "prop-types";
 import "./ProductBox.css";
+import { Link } from "react-router-dom";
 
 const ProductBox = ({ product }) => {
   return (
-    <div className="product-box">
+    <Link to={`/${product.id}`}>
+      <div className="product-box">
         <img src={product.image_url} alt={product.name} />
-      <h3>{product.name}</h3>
-      <span>{product.price}€</span>
-    </div>
+        <h3>{product.name}</h3>
+        <span>{product.price}€</span>
+      </div>
+    </Link>
   );
 };
 

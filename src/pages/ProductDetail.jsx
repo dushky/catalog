@@ -1,23 +1,73 @@
-import { useRouteLoaderData } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import axios from "axios";
+import { useState, useEffect } from "react";
 
 const ProductDetail = () => {
-  const data = useRouteLoaderData("product-detail");
-  return <div>{data.name}</div>;
+  const { productId } = useParams();
+  const [product, setProduct] = useState();
+  const [reviews, setReviews] = useState();
+  useEffect(() => {
+    const source = axios.CancelToken.source();
+    axios
+      .get("http://localhost:8000/products/" + productId, {
+        cancelToken: source.token,
+      })
+      .then((response) => {
+        setProduct(response.data);
+      })
+      .catch((error) => {
+        if (axios.isCancel(error)) {
+          console.log("Axios request aborted.");
+        } else {
+          console.error(error);
+        }
+      });
+    return () => {
+      source.cancel();
+    };
+  }, []);
+
+  useEffect(() => {
+    const source = axios.CancelToken.source();
+    axios
+      .get("http://localhost:8000/reviews?product_id=" + productId, {
+        cancelToken: source.token,
+      })
+      .then((response) => {
+        setReviews(response.data);
+      })
+      .catch((error) => {
+        if (axios.isCancel(error)) {
+          console.log("Axios request aborted.");
+        } else {
+          console.error(error);
+        }
+      });
+    return () => {
+      source.cancel();
+    };
+  }, []);
+
+  return (
+    <>
+      <div className="product-detail">
+        <h2>{product?.name}</h2>
+        <img src={product?.image_url} alt={product?.name} />
+        <p>{product?.price}€</p>
+        <p>{product?.description}</p>
+      </div>
+
+      <div className="product-reviews">
+        {reviews?.map((review) => {
+          return <div key={review.id} className="product-review">
+            <h3>{review.user}</h3>
+            <p>{review.rating}/5</p>
+            <p>{review.comment}</p>
+          </div>;
+        })}
+      </div>
+    </>
+  );
 };
-
-export async function loader({ request, params }) {
-  const id = params.productId;
-
-  try {
-    const response = await axios.get("http://localhost:8000/products/" + id);
-    if (response.status === 200) {
-      return response;
-    }
-  } catch (error) {
-    console.error(error);
-    throw error;
-  }
-}
 
 export default ProductDetail;
