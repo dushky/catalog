@@ -9,7 +9,7 @@ import { makeStyles } from "@mui/styles";
 import Checkbox from "@mui/material/Checkbox";
 import FilterContext from "../../store/filter-context";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   drawer: {
     width: 240,
     zIndex: 0,
