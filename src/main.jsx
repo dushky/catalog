@@ -1,4 +1,4 @@
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./index.css";
 import RootLayout from "./pages/RootLayout";
@@ -26,6 +26,9 @@ const router = createBrowserRouter([
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router} />
+// eslint-disable-next-line react/no-deprecated
+ReactDOM.render(
+  <RouterProvider router={router} />,
+
+document.getElementById('root')
 );
