@@ -7,8 +7,10 @@ const ProductBox = ({ product }) => {
     <Link to={`/${product.id}`}>
       <div className="product-box">
         <img src={product.image_url} alt={product.name} />
-        <h3>{product.name}</h3>
-        <span>{product.price}€</span>
+        <div className="product-box-info">
+          <h3 className="product-box-name">{product.name}</h3>
+          <span className="product-box-price">{product.price}€</span>
+        </div>
       </div>
     </Link>
   );

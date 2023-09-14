@@ -1,0 +1,37 @@
+.header {
+    position: fixed;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    margin-bottom: 20px;
+  }
+
+  nav {
+    width: 100%;
+  }
+  
+  .list {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .list a {
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+    padding-right: 20px;
+  }
+  
+  .list a:hover,
+  .list a.active {
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .header {
+        width: 100%;
+    }
+  }
