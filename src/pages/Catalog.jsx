@@ -1,5 +1,5 @@
 import ProductList from "../components/Product/ProductList";
-import MyDrawer from "../components/Filter/MyDrawer";
+import DrawerFilter from "../components/Filter/DrawerFilter";
 import FilterContext from "../store/filter-context";
 import { useState, useEffect } from "react";
 import axios from "axios";
@@ -10,9 +10,9 @@ const Catalog = () => {
 
   const changeFilterHandler = (id) => {
     if (filteredCategories.includes(id)) {
-      setFilteredCategories(filteredCategories.filter((item) => item !== id)); 
+      setFilteredCategories(filteredCategories.filter((item) => item !== id));
     } else {
-      setFilteredCategories([...filteredCategories, id]); 
+      setFilteredCategories([...filteredCategories, id]);
     }
   };
 
@@ -45,7 +45,7 @@ const Catalog = () => {
         filteredCategories,
       }}
     >
-      <MyDrawer />
+      <DrawerFilter />
       <ProductList />
     </FilterContext.Provider>
   );

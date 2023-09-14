@@ -28,7 +28,7 @@ const useStyles = makeStyles(() => ({
   },
 }));
 
-const MyDrawer = () => {
+const DrawerFilter = () => {
   const ctx = useContext(FilterContext);
 
   const classes = useStyles();
@@ -78,4 +78,4 @@ const MyDrawer = () => {
   );
 };
 
-export default MyDrawer;
+export default DrawerFilter;
