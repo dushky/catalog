@@ -7,6 +7,7 @@ const Review = ({ review }) => {
   return (
     <div className="product-review">
       <h3>{review?.user} said:</h3>
+      <span>{review.date}</span>
       <p>{review?.comment}</p>
       <MyRating rating={review?.rating} />
     </div>
@@ -19,6 +20,7 @@ Review.propTypes = {
     user: PropTypes.string.isRequired,
     rating: PropTypes.number.isRequired,
     comment: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired,
   }).isRequired,
 };
 export default Review;
