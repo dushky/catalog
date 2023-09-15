@@ -9,6 +9,7 @@ const ProductDetail = () => {
   const { productId } = useParams();
   const [product, setProduct] = useState();
 
+// fetching product data
   useEffect(() => {
     const source = axios.CancelToken.source();
     axios

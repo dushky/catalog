@@ -8,6 +8,7 @@ const Catalog = () => {
   const [categories, setCategories] = useState([]);
   const [filteredCategories, setFilteredCategories] = useState([]);
 
+  // handler for changing filter, stores selected category Ids into array
   const changeFilterHandler = (id) => {
     if (filteredCategories.includes(id)) {
       setFilteredCategories(filteredCategories.filter((item) => item !== id));
@@ -16,6 +17,7 @@ const Catalog = () => {
     }
   };
 
+  // fetching categories
   useEffect(() => {
     const source = axios.CancelToken.source();
     axios

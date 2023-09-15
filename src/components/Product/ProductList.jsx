@@ -10,6 +10,7 @@ const ProductList = () => {
   const ctx = useContext(FilterContext);
   const totalProducts = useRef(0);
 
+  // fetching data for productList
   useEffect(() => {
     const source = axios.CancelToken.source();
     let categoryQuery = "";
@@ -43,6 +44,7 @@ const ProductList = () => {
     };
   }, [ctx.filteredCategories, productCount]);
 
+  // listening for bottom of the page
   useEffect(() => {
     function handleScroll() {
       if (
@@ -69,7 +71,7 @@ const ProductList = () => {
           return <ProductBox key={product.id} product={product} />;
         })}
 
-      {/*Thisfixes layout of last row of products*/}
+      {/*This fixes layout of last row of products*/}
       <div className="product-box" style={{ visibility: "hidden" }}></div>
       <div className="product-box" style={{ visibility: "hidden" }}></div>
       <div className="product-box" style={{ visibility: "hidden" }}></div>

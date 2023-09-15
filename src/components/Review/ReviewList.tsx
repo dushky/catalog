@@ -8,6 +8,7 @@ import "./ReviewList.css";
 const ReviewList = ({ productId }) => {
   const [reviews, setReviews] = useState<any[]>([]);
 
+//fetching product reviews
   useEffect(() => {
     const source = axios.CancelToken.source();
     axios
